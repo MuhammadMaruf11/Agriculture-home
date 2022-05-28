@@ -1,0 +1,73 @@
+@use "common" as *;
+
+.contact-directly{
+    span{
+        font-weight: 600;
+    }
+    .contact-personally{
+        span{
+            font-weight: 400;
+        }
+        .mail-to{
+            a{
+                i{
+                    color: #00b5d3;
+                    font-size: 20px;
+                }
+            }
+        }
+        .tel-number{
+            a{
+                color: #6f8796;
+                font-size: 18px;
+                i{
+                    color: #00b5d3;
+                }
+            }
+        }
+    }
+}
+
+.new-product-items{
+    .product-content{
+        .product-heading-big{
+            span{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+.events-items{
+    .events-heading-big{
+        .icon{
+            i{
+                font-weight: 500;
+            }
+        }
+        span{
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+    .event-descritpion-big{
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
+
+
+.guide-img{
+    img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
